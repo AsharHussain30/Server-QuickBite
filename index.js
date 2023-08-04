@@ -9,7 +9,7 @@ let app = express();
 app.use(bodyParser.json());
 
 app.get("/", (req,res) => {
-    res.send("Welcome to the LittleFood Server!")
+    res.send("Welcome to the QuickBite Server!")
 })
 
 app.post('/payment_sheet', async (req, res) => {
